@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&family=Poppins&family=Quando&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: outfit, sans-serif;
+        background-color: hsl(212, 45%, 89%);
+      }
+      .card {
+        width: 23em;
+        height: 33em;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1rem;
+        text-align: center;
+        margin-left: 29rem;
+        margin-top: 2rem;
+      }
+      .card-img {
+        padding-top: 1rem;
+      }
+      .card img {
+        width: 20em;
+        height: 20em;
+        border-radius: 1rem;
+      }
+
+      .card-text h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem 0;
+        color: hsl(218, 44%, 22%);
+      }
+      .card-text p {
+        font-size: 15px;
+        text-align: center;
+        color: gray;
+        font-weight: 400;
+      }
+      @media only screen and (max-width: 375px) {
+        .card {
+          margin-left: 1rem;
+          margin-top: 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-img">
+        <img src="./images/image-qr-code.png" alt="" />
+      </div>
+      <div class="card-text">
+        <h3>
+          Improve your front-end<br />
+          skills by building projects
+        </h3>
+        <p>
+          Scan the QR code to visit Frontend<br />
+          Mentor and take your coding skills to <br />
+          the next level
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
